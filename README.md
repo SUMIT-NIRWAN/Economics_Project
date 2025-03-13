@@ -48,7 +48,7 @@ Distribution of estimators and hypothesis testing
 Calculation of t-statistics, confidence intervals, and Wald tests
 
 
-6.  
+6. Sumit_Econ_Lab
 Instrumental Variables and Endogeneity Analysis
 This project focuses on addressing endogeneity issues in wage determination by using instrumental variables and a two-stage least squares (2SLS) approach. The analysis is based on the MROZ.csv dataset and involves performing manual calculations for standard errors, hypothesis testing, and regression analysis.
 
