@@ -46,3 +46,27 @@ Data generation and visualization
 Estimation of regression coefficients using the plug-in method
 Distribution of estimators and hypothesis testing
 Calculation of t-statistics, confidence intervals, and Wald tests
+
+
+6.  
+Instrumental Variables and Endogeneity Analysis
+This project focuses on addressing endogeneity issues in wage determination by using instrumental variables and a two-stage least squares (2SLS) approach. The analysis is based on the MROZ.csv dataset and involves performing manual calculations for standard errors, hypothesis testing, and regression analysis.
+
+Objectives
+OLS Regression: Estimate the relationship between log wages and various explanatory variables like education, experience, and family structure.
+Endogeneity Detection: Identify potential endogeneity in the education variable.
+Two-Stage Least Squares (2SLS): Correct for endogeneity by using parents’ education as instrumental variables.
+
+
+Methodology
+Stage I Regression: Regress education on exogenous variables (like parental education and experience) to obtain fitted values.
+Stage II Regression: Use the fitted education values to estimate the effect on log wages, addressing endogeneity.
+Standard Errors: Manually calculate standard errors of coefficients in both stages.
+
+
+Hypothesis Testing:
+Joint hypothesis on the significance of instrumental variables.
+Test for exogeneity of the education variable using a formal statistical test.
+Key Tests and Statistics
+Wald Test: For joint hypothesis on the significance of instruments.
+Exogeneity Test: Based on the difference in variance between OLS and 2SLS estimates.c
